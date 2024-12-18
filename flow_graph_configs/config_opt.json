@@ -1,0 +1,24 @@
+{
+    "config_name": "facebook/opt",
+
+    "layer_format": "model.decoder.layers.{}",
+    "layer_mlp_format": "model.decoder.layers.{}",
+    "layer_attn_format": "model.decoder.layers.{}.self_attn",
+
+    "ln1": "model.decoder.layers.{}.self_attn_layer_norm",
+    "attn_q": "model.decoder.layers.{}.self_attn.q_proj",
+    "attn_k": "model.decoder.layers.{}.self_attn.k_proj",
+    "attn_v": "model.decoder.layers.{}.self_attn.v_proj",
+    "attn_o": "model.decoder.layers.{}.self_attn.out_proj",
+
+    "ln2": "model.decoder.layers.{}.final_layer_norm",
+    "mlp_ff1": "model.decoder.layers.{}.fc1",
+    "mlp_ff2": "model.decoder.layers.{}.fc2",
+    "mlp_act": "model.decoder.layers.{}.activation_fn",
+    
+    "parallel_attn_mlp_architecture": false,
+    "include_mlp_bias": true,
+    "include_attn_bias": true,
+    "n_layer": "num_hidden_layers"
+
+}
