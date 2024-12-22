@@ -8,7 +8,7 @@
 ## Description
 This repo will contain the official code for the paper: Reversed Attention: On The Gradient Descent Of Attention Layers in GPT
 
-meanwhile, we make the following demo avaible
+Meanwhile, we make the following demo available: [![Colab Reversed Attention](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13HDQ6o-TN7PcKCk4DlKgQ9O6jEeHbUW0?usp=sharing)
 
 
 ## Installation
