@@ -39,3 +39,13 @@ This demo can be run in Colab and does not require a GPU (but it can make the ru
 [] Release code.
 
 
+## Citing
+
+```bibtex
+@article{katz2024rAttention,
+  title={Reversed Attention: On The Gradient Descent Of Attention Layers In GPT},
+  author={Shahar Katz and Lior Wolf},
+  journal={arXiv preprint arXiv:2412.17019},
+  year={2024}
+}
+```
