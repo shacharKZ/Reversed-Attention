@@ -6,9 +6,9 @@
 3. [Usage](#usage)
 
 ## Description
-This repo will contain the official code for the paper: Reversed Attention: On The Gradient Descent Of Attention Layers in GPT
+This repo contains the official code for the paper: Reversed Attention: On The Gradient Descent Of Attention Layers in GPT (NAACL 2025)
 
-Meanwhile, we make the following demo available: [![Colab Reversed Attention](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13HDQ6o-TN7PcKCk4DlKgQ9O6jEeHbUW0?usp=sharing)
+Please try our demo: [![Colab Reversed Attention](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13HDQ6o-TN7PcKCk4DlKgQ9O6jEeHbUW0?usp=sharing)
 
 
 ## Installation
@@ -34,9 +34,17 @@ This script demonstrates how to obtain the backward pass attention, which we nam
 This demo can be run in Colab and does not require a GPU (but it can make the run faster)
 
 
-## TODO
+### Full Experiments
+The full experiments code can be found in [`src`](src).
 
-[] Release code.
+The scripts are provided as notebooks (.ipynb). If you want to run them as simple python scripts, convert them into .py files using:
+```bash
+jupyter nbconvert <script_name>.ipynb --to python
+```
+
+Some functionality are provided by the submodule `function_vectors' (make sure you pull it and follow its setup instruction).
+
+In particular, the data for the experiments is sourced from that submodule. Part of the datasets need to be manually downloaded from [here](https://lre.baulab.info/data/) (credit for this datasets creator at [Linearity of Relation Decoding in Transformer LMs](https://lre.baulab.info/)). For more information see the two scripts under [`function_vectors/dataset_files'](function_vectors/dataset_files).
 
 
 ## Citing
