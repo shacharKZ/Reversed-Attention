@@ -6,7 +6,7 @@
 3. [Usage](#usage)
 
 ## Description
-This repo contains the official code for the paper: Reversed Attention: On The Gradient Descent Of Attention Layers in GPT (NAACL 2025)
+This repo contains the official code for the paper: Reversed Attention: On The Gradient Descent Of Attention Layers in GPT (accepted to NAACL 2025 main conference)
 
 Please try our demo: [![Colab Reversed Attention](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13HDQ6o-TN7PcKCk4DlKgQ9O6jEeHbUW0?usp=sharing)
 
