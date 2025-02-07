@@ -10,6 +10,8 @@ This repo contains the official code for the paper: Reversed Attention: On The G
 
 Please try our demo: [![Colab Reversed Attention](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13HDQ6o-TN7PcKCk4DlKgQ9O6jEeHbUW0?usp=sharing)
 
+![RA overview](https://github.com/user-attachments/assets/49b98a34-be12-4e54-88ce-9c4879faceb5)
+
 
 ## Installation
 
