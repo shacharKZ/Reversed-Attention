@@ -1,3 +1,4 @@
 [submodule "function_vectors"]
 	path = function_vectors
 	url = https://github.com/shacharKZ/function_vectors
+    branch = main
