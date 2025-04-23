@@ -8,9 +8,10 @@
 ## Description
 This repo contains the official code for the paper: Reversed Attention: On The Gradient Descent Of Attention Layers in GPT (accepted to NAACL 2025 main conference)
 
+
 Please try our demo: [![Colab Reversed Attention](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13HDQ6o-TN7PcKCk4DlKgQ9O6jEeHbUW0?usp=sharing)
 
-![RA overview](https://github.com/user-attachments/assets/49b98a34-be12-4e54-88ce-9c4879faceb5)
+![RA overview](https://github.com/user-attachments/assets/598241ba-cf4a-422e-ac7c-7d45b15c82f1)
 
 
 ## Installation
@@ -48,6 +49,7 @@ Some functionality are provided by the submodule `function_vectors' (make sure y
 
 In particular, the data for the experiments is sourced from that submodule. Part of the datasets need to be manually downloaded from [here](https://lre.baulab.info/data/) (credit for this datasets creator at [Linearity of Relation Decoding in Transformer LMs](https://lre.baulab.info/)). For more information see the two scripts under [`function_vectors/dataset_files'](function_vectors/dataset_files).
 
+![RA overview](https://github.com/user-attachments/assets/49b98a34-be12-4e54-88ce-9c4879faceb5)
 
 ## Citing
 
